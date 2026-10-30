@@ -92,3 +92,20 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
 }
+
+#container > #banner > p {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+}
