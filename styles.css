@@ -75,18 +75,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .introduction, .footer {
     background-color: #f3f3f3;
+    height: 37.5vh;
 }
 
 .signUpForm {
-    padding: 20% 10%;
+    height: 25vh;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-}
-
-.introduction {
-    padding-top: 30vh;
-    text-align: center;
-}
-
-.footer {
-    padding-bottom: 33.5vh;
 }
