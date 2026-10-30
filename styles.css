@@ -81,14 +81,14 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 40px;
+    padding-left: 60px;
 }
 
 
 .signUpForm {
     height: 30vh;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    padding-left: 40px;
+    padding-left: 60px;
     display: flex;
     align-items: center;
 }
