@@ -121,3 +121,17 @@ h5 {
     color: white;
     text-align: center;
 }
+
+fieldset.form-grid {
+    border: none;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    row-gap: 20px;
+
+    width: 100%;
+    max-width: 600px;
+}
