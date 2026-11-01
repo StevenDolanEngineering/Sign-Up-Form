@@ -120,6 +120,7 @@ h5 {
     opacity: 0.6;
     color: white;
     text-align: center;
+    font-size: 40px;
 }
 
 fieldset.form-grid {
@@ -133,5 +134,22 @@ fieldset.form-grid {
     row-gap: 20px;
 
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
+}
+
+.form-title {
+    grid-column: span 2;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
