@@ -174,3 +174,13 @@ fieldset.form-grid {
     color: white;
     border-radius: 10px;
 }
+
+.footer > p {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+a {
+    color: green;
+    font-weight: bold;
+}
