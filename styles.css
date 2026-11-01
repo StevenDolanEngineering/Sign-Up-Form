@@ -55,6 +55,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* End of CSS Reset*/
 
+h4 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
 #container {
     display: flex;
     min-height: 100vh;
@@ -80,16 +89,19 @@ h1, h2, h3, h4, h5, h6 {
     height: 35vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding-left: 60px;
 }
 
+.introduction {
+    justify-content: center;
+}
 
 .signUpForm {
     height: 30vh;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     padding-left: 60px;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
