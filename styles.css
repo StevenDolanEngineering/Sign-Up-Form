@@ -56,11 +56,11 @@ h1, h2, h3, h4, h5, h6 {
 /* End of CSS Reset*/
 
 h4 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 h5 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 40px;
 }
 
@@ -82,6 +82,7 @@ h5 {
     background-size: cover;
     height: 100vh;
     flex: 1 0 35vw;
+    position: relative;
 }
 
 .introduction, .footer {
@@ -121,6 +122,11 @@ h5 {
     color: white;
     text-align: center;
     font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
 }
 
 fieldset.form-grid {
